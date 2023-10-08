@@ -1,0 +1,10 @@
+stockcart[] products = new stockcart[]
+ {
+    new stockcart { Id = 1 , productname ="iPhone 15", Price = 50 , amount = 10 },
+    new stockcart { Id = 2 , productname ="iPhone 14", Price = 40 , amount = 10 },
+    new stockcart { Id = 3 , productname ="iPhone 13", Price = 30 , amount = 10 },
+    new stockcart { Id = 4 , productname ="iPhone 12", Price = 20 , amount = 10 },
+    new stockcart { Id = 5 , productname ="iPhone SE", Price = 10 , amount = 10 },
+ };
+
+return Ok(products);
